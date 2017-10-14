@@ -5,5 +5,5 @@ COPY run.sh /usr/local/bin/run.sh
 RUN chmod +x /usr/local/bin/run.sh
 COPY tomcat.yaml /etc/dd-agent/conf.d/tomcat.yaml
 COPY install-dd.sh install-dd.sh
-RUN DD_API_KEY=7c082b3f1dc936a31563485e9702798d bash install-dd.sh
+RUN DD_API_KEY=695b5df0d64cf8d783745f2a4451b0cb bash install-dd.sh
 CMD ["run.sh"]
